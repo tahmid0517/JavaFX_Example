@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Group>
+	<Button text = "Button" fx:id = "myButton" onAction="#handleClick"/>
+</Group>
+

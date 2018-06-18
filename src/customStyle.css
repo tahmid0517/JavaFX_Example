@@ -1,0 +1,6 @@
+.button { 
+	-fx-background-color: white;
+	-fx-font-style : italic;
+	-fx-font-family : sans-serif;
+	-fx-font-weight : bolder;
+}
