@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 
 public class TestingRuntime 
 {
-	/*public static void main(String args[]) throws IOException
+	public static void main(String args[]) throws IOException
 	{
 		//System.out.println(executeCommand("cmd.exe /c start fart.bat"));
 		Process p = new ProcessBuilder("cmd.exe","/c","C:\\Users\\owner\\Desktop\\Test\\fart.bat").start();
@@ -16,7 +16,7 @@ public class TestingRuntime
 			line = r.readLine();
 		}
 		r.close();
-	}*/
+	}
 	
 	public static String executeCommand(String command)
 	{
