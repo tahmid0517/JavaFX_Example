@@ -62,10 +62,12 @@ public class Server
 	
 	public void respondToClient(String input) throws IOException
 	{
-		if(input.equals("poop"))
+		try
 		{
-			writeMessage("I don't want to poop right now.");
+			Thread.sleep(1);
 		}
+		catch(InterruptedException e) {}
+		writeMessage("DONE");
 	}
 	
 	public boolean handleInput(String input)
